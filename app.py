@@ -7,7 +7,7 @@ import os
 
 @st.cache
 def load_data():
-    data_dir = 'ProyekDicoding/PRSA_Data_20130301-20170228/'
+    data_dir = 'PRSA_Data_20130301-20170228/'
     files = [file for file in os.listdir(data_dir) if file.endswith('.csv')]
     dataframes = []
     for file in files:
